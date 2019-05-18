@@ -85,4 +85,4 @@ The *A* will be *i*, *d*, or *b*, the kind of accesses included in the analysis.
 
 *NN* indicates how many histograms are grouped together for each line of output.  Thus, 1 indicates groups of 100,000 instructions, 10 indicates groups of 1,000,000 instructions, and 100 indicates groups of 10,000,000 (and the files will be correspondingly smaller, having that many fewer lines).
 
-The p4096 is jsut an historical artifact and has no real meaning at this point.  The w100000i indicates that the original window size for developing the base histograms is 100,000 instructions.
+The p4096 is just an historical artifact and has no real meaning at this point.  The w100000i indicates that the original window size for developing the base histograms is 100,000 instructions.
