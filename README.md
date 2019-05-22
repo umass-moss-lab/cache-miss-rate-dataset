@@ -1,9 +1,20 @@
 # Cache miss rate sequence dataset
+
 This data set was used in the experiments described in "Cache Miss Rate Predictability via Neural Networks",
 by Rishikesh Jha, Arjun Karuvally, Saket Tiwair, and Eliot Moss, College of Information and Computer Sciences,
 University of Massachusetts Amherst, 140 Governors Dr, Amherst MA 01002.
 The paper appeared at the Workshop on ML for Systems at NeurIPS 2018, December, 2018.
 You can email Prof. Moss at moss@cs.umass.edu.
+
+# How to clone the repository
+
+The files in this repository are quite large, we we use git's Large File Storage (LFS) extension.
+Before cloning, you need to have git-lfs installed on your system.  Then, to do the actual cloning,
+use the command `git lfs clone <address of the repo>` where the address can be seen from the Clone
+or Download button of the repository in GitHub.  Note that cloning will take a while since the size
+of the repository is 27+ Gb.  And of course you will need plenty of space (about double the 27 Gb)
+to do the cloning, along with a checkout.  You may prefer simply to download, since this is a
+repository where we do not expect incremental changes to the large files.
 
 # What this GitHub directory contains
 
